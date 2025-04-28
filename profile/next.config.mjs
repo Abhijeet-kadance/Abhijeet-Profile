@@ -6,7 +6,7 @@ const nextConfig = {
   },
   // assetPrefix: './', // important if you deploy to GitHub Pages
   basePath: '/Abhijeet-Profile', // important: replace with your GitHub repo name
+  assetPrefix: '/Abhijeet-Profile',
 };
 
 export default nextConfig;
-  
