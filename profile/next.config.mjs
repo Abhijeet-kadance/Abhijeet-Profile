@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export', // Enable static export mode
-    images: {
-      unoptimized: true, // Disable image optimization for static export
-    },
-    trailingSlash: true, // Ensure URLs have a trailing slash, useful for GitHub Pages
-  };
-  
-  export default nextConfig;
+  output: 'export', // <-- important!
+  images: {
+    unoptimized: true, // because GitHub Pages doesn't handle Next.js image optimization
+  },
+  assetPrefix: './', // important if you deploy to GitHub Pages
+  basePath: '/Abhijeet-Profile', // important: replace with your GitHub repo name
+};
+
+export default nextConfig;
   
