@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // because GitHub Pages doesn't handle Next.js image optimization
   },
-  assetPrefix: './', // important if you deploy to GitHub Pages
+  // assetPrefix: './', // important if you deploy to GitHub Pages
   basePath: '/Abhijeet-Profile', // important: replace with your GitHub repo name
 };
 
